@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    background: #e8e1d5;
+    color: #222222;
+
+    font-family: "Arimo", sans-serif;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+
+/* serif on titles */
+
+h1,
+h2,
+h3 {
+    font-family: "Cinzel", serif;
+    color: #263a52;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+nav h2 {
+    color: #e8e1d5;
+}
+
+
+header h1 {
+    font-size: 5em;
+    font-weight: normal;
+    color: #e8e1d5;
+}
+
+
+p {
+    line-height: 1.85em;
+    margin-bottom: 25px;
+}
+
+
+/* centered wrapper */
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* navigation */
+
+nav {
+    background: #263a52;
+    padding: 10px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e8e1d5;
+    font-size: 1.5em;
+    font-family: "Space Mono", monospace;
+}
+
+
+/* header */
+
+header {
+    background: #263a52;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* images */
+
+img {
+    max-width: 100%;
+}
+
+
+/* screen reader only */
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+
+/* links */
+
+a {
+    color: #263a52;
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
