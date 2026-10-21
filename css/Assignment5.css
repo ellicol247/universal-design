@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+    background-color: #E8E1D5;
+    color: #263A52;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: #263A52;
+    color: #FFFFFF;
+    padding: 30px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+nav {
+    background-color: #D5C9B8;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    color: #263A52;
+    font-family: 'Space Mono', monospace;
+}
+
+a:focus {
+    outline: 3px solid #263A52;
+}
+
+main {
+    max-width: 850px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+article {
+    margin-bottom: 25px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Skip navigation from class */
+
+.skip-link {
+    background: black;
+    color: #fff;
+    font-weight: 700;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-200%);
+    transition: transform 0.3s;
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+    outline: 3px solid yellow;
+}
+
+/* Hidden heading for screen readers */
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Material Icons */
+
+.material-icons {
+    font-size: 30px;
+}
+
+/* Accessible table */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+caption {
+    font-weight: bold;
+    padding: 10px;
+}
+
+th, td {
+    border: 2px solid #263A52;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #D5C9B8;
+}
+
+/* Accessible form */
+
+fieldset {
+    border: 2px solid #263A52;
+    padding: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+input, select {
+    padding: 8px;
+    font-size: 16px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus {
+    background: black;
+    color: white;
+    border: 4px solid yellow;
+}
+
+input:not([type="submit"]):valid {
+    border: 2px solid green;
+}
+
+input:invalid {
+    border: 1px dotted red;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+    background-color: #263A52;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}

@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+    background: #E8E1D5;
+    color: #263A52;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background: #263A52;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+}
+
+nav {
+    background: #D5C9B8;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    color: #263A52;
+    font-family: 'Space Mono', monospace;
+}
+
+a:focus {
+    outline: 3px solid #263A52;
+}
+
+main {
+    max-width: 850px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+article {
+    margin-bottom: 25px;
+}
+
+.skip-link {
+    background: black;
+    color: white;
+    font-weight: 700;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-200%);
+    transition: transform 0.3s;
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+    outline: 3px solid yellow;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.material-icons {
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+caption {
+    font-weight: bold;
+    padding: 10px;
+}
+
+th, td {
+    border: 2px solid #263A52;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #D5C9B8;
+}
+
+fieldset {
+    border: 2px solid #263A52;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+input:focus {
+    background: black;
+    color: white;
+    border: 4px solid yellow;
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
+input:invalid {
+    border: 1px dotted red;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 25px;
+}
+
+mark {
+    background: #F4E49B;
+    color: #263A52;
+}
+
+blockquote {
+    margin: 20px;
+    padding: 10px;
+    border-left: 3px solid #263A52;
+}
+
+details {
+    margin-bottom: 20px;
+}
+
+summary {
+    cursor: pointer;
+}
+
+pre {
+    background: #D5C9B8;
+    padding: 15px;
+}
+
+footer {
+    background: #263A52;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+address {
+    margin: 15px;
+}
+
